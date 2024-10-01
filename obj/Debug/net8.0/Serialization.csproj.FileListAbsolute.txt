@@ -1,0 +1,14 @@
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Serialization.exe
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Serialization.deps.json
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Serialization.runtimeconfig.json
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Serialization.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Serialization.pdb
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.AssemblyInfoInputs.cache
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.AssemblyInfo.cs
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.csproj.CoreCompileInputs.cache
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.dll
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\refint\Serialization.dll
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.pdb
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.genruntimeconfig.cache
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\ref\Serialization.dll
