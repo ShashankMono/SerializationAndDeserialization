@@ -1,4 +1,7 @@
-﻿using Serialization.Models;
+﻿using Microsoft.IdentityModel.Protocols;
+using Serialization.Models;
+using System.Collections.Specialized;
+using System.Configuration;
 using System.IO;
 using System.Text.Json;
 
@@ -8,26 +11,21 @@ namespace Serialization
     {
         public static Account account = null;
         public static Account[] DataBase = new Account[0];
+        public static string path = ConfigurationManager.AppSettings["Path"].ToString();
 
         static void Main(string[] args)
         {
-            string path = "D:\\monocept_c# learning\\Day16\\Store.txt";
 
             //Console.WriteLine((File.Exists(path)) ? Deserialization(path) : Serialization(path));
 
-            if (File.Exists(path)){
-                Deserialization(path);
+            if (File.Exists(path))
+            {
+                LoadAccount();
             }
             else
             {
-                Serialization(path);
+                CreateAccount();
             }
-                
-
-            //if (account != null)
-            //{
-            //    DisplayMenu();
-            //}
 
         }
 
@@ -42,26 +40,18 @@ namespace Serialization
 
             account = new Account(number,balance,name);
 
-            Resize(account);
-        }
-
-        public static void Serialization(string path)
-        {
-            CreateAccount();
             FileStream fs = File.Create(path);
             fs.Close();// I was getting error of file is used by other process which means after creating file
             // the process/file not getting closed 
-            Serialize(path);
+            Serializer.Serialize(path);
             ChangeOrAddAccountMenu();
-            //return "Account added!";
+
+            Resize(account);
         }
 
-        public static void Deserialization(string path)
-        {
-            string content = File.ReadAllText(path);
-            DataBase = JsonSerializer.Deserialize<Account[]>(content);
+        public static void LoadAccount() { 
+            DataBase = Serializer.Deserialization(path);
             ChangeOrAddAccountMenu();
-            //return $"Welcome back {account.AccountHolderName}\n";
         }
 
         public static void ChangeOrAddAccountMenu()
@@ -84,7 +74,7 @@ namespace Serialization
             switch (choice)
             {
                 case 0:
-                    Serialize("D:\\monocept_c# learning\\Day16\\Store.txt");
+                    Serializer.Serialize(path);
                     run[0] = false;
                     break;
                     
@@ -173,11 +163,6 @@ namespace Serialization
             Console.WriteLine("Enter amount to be Withdraw");
             double amount = double.Parse(Console.ReadLine());
             Console.WriteLine(account.Withdrawal(amount));
-        }
-        public static void Serialize(string path)
-        {
-            string jsonString = JsonSerializer.Serialize(DataBase);
-            File.WriteAllText(path, jsonString);
         }
 
         public static void Resize(Account account)

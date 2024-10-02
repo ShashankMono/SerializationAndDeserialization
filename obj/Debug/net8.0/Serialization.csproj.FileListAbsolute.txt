@@ -12,3 +12,16 @@ D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\refint\Serializatio
 D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.pdb
 D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.genruntimeconfig.cache
 D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\ref\Serialization.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Serialization.dll.config
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\monocept_c# learning\Day16\Serialization\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serialization.csproj.AssemblyReference.cache
+D:\monocept_c# learning\Day16\Serialization\obj\Debug\net8.0\Serializ.9D12218F.Up2Date
